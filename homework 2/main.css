@@ -1,9 +1,19 @@
 h1 {
     width: 100%;
 }
+
 body {
-    background: #814b1b;
+    background: coral;
+    margin: 10px;
 }
+
+.image {
+
+}
+
 .Boals {
-    background: #56ff50;
+    background: #898f48;
 }
+.achiv > ul > span {
+    background: #1cd2c3;
+    font-weight: bold;
