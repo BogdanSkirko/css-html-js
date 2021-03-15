@@ -1,5 +1,5 @@
 h1 {
-    width: 100%;
+    text-align: center;
 }
 
 body {
@@ -7,13 +7,15 @@ body {
     margin: 10px;
 }
 
-.image {
-
+.image1 {
+    text-align: center;
 }
 
 .Boals {
     background: #898f48;
 }
+
 .achiv > ul > span {
     background: #1cd2c3;
     font-weight: bold;
+}
