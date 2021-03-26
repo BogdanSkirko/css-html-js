@@ -146,15 +146,15 @@ console.log(UserAge3);
 console.log(UserMonth3);
 console.log(UserDate3);
 // // Просумувати їх. Отрманий результат записати в змінну result. Вивести цю змінну в консоль.
-let result = (UserAge3+UserMonth3+UserDate3);
+let result = (UserAge3 + UserMonth3 + UserDate3);
 console.log(result);
 //- За допомогою prompt() отримати 3 числа з плаваючою точкою. Заокруглити їх (Google "round number JS"). Просумувати їх між собою. Результат вивести в консоль.
-let Pi = parseFloat(prompt('Число Пі?'));
+let Pi10 = parseFloat(prompt('Число Пі?'));
 let Pi2 = parseFloat(prompt('Пі*2?'));
 let Pi3 = parseFloat(prompt('Пі*3?'));
 
 
-console.log(Math.round(Pi+Pi2+Pi3));
+console.log(Math.round(Pi10 + Pi2 + Pi3));
 
 
 //  - За допомогою prompt() отримати 2 цілих числа.
@@ -165,7 +165,7 @@ console.log(Math.round(Pi+Pi2+Pi3));
 let Question = prompt("Скільки днів в році?");
 let Question2 = prompt('Скільки місяців взимку?');
 
-console.log (Math.pow(Question, Question2));
+console.log(Math.pow(Question, Question2));
 
 // - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
 //   let a = 100; let b = '100'; let c = true;
@@ -200,5 +200,5 @@ console.log(10 >= 10);
 console.log(10 < 10);
 console.log(10 > 10);
 console.log(10 != 10);
-console.log(123>123);
-console.log(123===123);
+console.log(123 > 123);
+console.log(123 === 123);
