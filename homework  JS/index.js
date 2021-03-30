@@ -122,7 +122,7 @@ console.log(fathername);
 console.log(UserAge);
 
 // // Взяти змінні з завдання вище та зєднати їх в одну змінну (конкатинація).
-let info = (yourname + fathername + UserAge);
+let info = yourname + fathername + UserAge;
 document.write(info);
 // - За допомогою prompt() отримати 3 числа. Привести їх до числа (Google "String to number JS"). Вивести їх в консоль.
 
